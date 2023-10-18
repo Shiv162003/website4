@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 import io
 import base64
-from streamlit_option_menu import option_menu
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
