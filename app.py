@@ -80,7 +80,7 @@ if selected == "Model":
                 st.write("Predicted: normal")
     with col2:
         st.image("assets/model_achi.jpg", caption="Model Architecture", use_column_width=True)
-if selected=="Meet Our  Team":
+if selected=="Meet Our Team":
 
 
 
