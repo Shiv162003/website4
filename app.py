@@ -14,10 +14,13 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 icon_image_url = 'assets/logo.jpg'  # Replace with the URL of your icon image
 st.set_page_config(page_title="HateDetect", layout="wide", page_icon=icon_image_url)
 
-menu_options = ["Home", "Model","Meet Our  Team"]
-selected = option_menu(menu_title=None, options=menu_options, orientation="horizontal")
+menu_options = ["Home", "Model", "Meet Our Team"]
 
-# Define content for different sections based on the selected option
+# Use st.selectbox instead of option_menu
+selected = st.selectbox("Select an Option", menu_options)
+
+# Your code...
+
 if selected == "Home":
     # Define content for the Home page
     st.title("About the Topic")
