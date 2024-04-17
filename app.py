@@ -71,13 +71,13 @@ def main():
             def display_mentor(image_filename, name, linkedin_profile):
                 st.markdown(f"## {name}", unsafe_allow_html=True)
                 st.image(f"assets/{image_filename}")
-                st.write(f"LinkedIn Profile: [{name}]({linkedin_profile})")      
+                st.write(f"Github Profile: [{name}]({linkedin_profile})")      
             col1, col2,col3,col4,col5 = st.columns(5)
             with col3:
                 # Bolder text using HTML and CSS
                 st.markdown("<p style='font-size: 34px; font-weight: bold; color: red;'>MENTOR</p>", unsafe_allow_html=True)
                 # Example usage
-                display_mentor("m.jpg", "Dr. Mayur Gaikwad", "https://www.linkedin.com/in/mayur-gaikwad-9047b0249/")
+                display_mentor("m.jpg", "Shivansh Nautiyal", "https://github.com/Shiv162003")
             col1, col2,col3,col4,col5 = st.columns(5)
             with col3:
                 # Bolder text using HTML and CSS
